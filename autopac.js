@@ -18,7 +18,8 @@ var config = {
         'ytimg',
         'blogger',
         'googlelab',
-        'gravatar'
+        'gravatar',
+        'dropboxusercontent'
     ],
 
     domains: [
