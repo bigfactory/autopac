@@ -19,7 +19,10 @@ var config = {
         'blogger',
         'googlelab',
         'gravatar',
-        'dropboxusercontent'
+        'dropboxusercontent',
+        'cutandslice',
+        'dropbox',
+        'slideshare'
     ],
 
     domains: [
