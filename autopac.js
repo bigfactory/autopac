@@ -22,11 +22,13 @@ var config = {
         'dropboxusercontent',
         'cutandslice',
         'dropbox',
-        'slideshare'
+        'slideshare',
+        'instagram'
     ],
 
     domains: [
-        't.co'
+        't.co',
+        'bit.ly'
     ]
 };
 
