@@ -23,12 +23,15 @@ var config = {
         'cutandslice',
         'dropbox',
         'slideshare',
-        'instagram'
+        'instagram',
+        'amazonaws',
+        'xmarks'
     ],
 
     domains: [
         't.co',
-        'bit.ly'
+        'bit.ly',
+        'yinxiang.com'
     ]
 };
 
@@ -62,7 +65,7 @@ function FindProxyForURL(url, host) {
 
     log('url', url);
     log('host', host);
-
+    
     if (hash.domains[host]) {
         return PROXY;
     }
